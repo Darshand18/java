@@ -21,9 +21,9 @@ public class Flower {
 
 	// Method to display the details of the flower
     public void display() {
-        System.out.println("Flower Name= " + name);
-        System.out.println("Flower Colour= " + colour);
-        System.out.println("Number of Petals= " + numberOfPetals);
+        System.out.println("Flower Name: " + name);
+        System.out.println("Flower Colour: " + colour);
+        System.out.println("Number of Petals: " + numberOfPetals);
     }
 	/**
 	 * @param args
