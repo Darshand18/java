@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+package com.wipro.java;
+
+/**
+ * 
+ */
+public class Flower {
+
+	// Attributes (properties) of the Flower class
+    String name;
+    String color;
+    int numberOfPetals;
+	 
+	public Flower(String name, String color, int numberOfPetals) {
+		 this.name = name;
+	     this.color = color;
+	     this.numberOfPetals = numberOfPetals;
+	}
+
+	// Method to display the details of the flower
+    public void displayFlowerDetails() {
+        System.out.println("Flower Name: " + name);
+        System.out.println("Flower Colour: " + colour);
+        System.out.println("Number of Petals: " + numberOfPetals);
+    }
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Flower rose = new Flower("Rose", "Red", 5);
+        rose.displayFlowerDetails();
+        
+        Flower jasmine = new Flower("jasmine", "White", 8);
+        jasmine.displayFlowerDetails();
+	}
+
+}
