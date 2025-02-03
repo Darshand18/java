@@ -1,25 +1,25 @@
 /**
  * 
  */
-package com.wipro.oops;
+package com.wipro.oops.inheritannce;
 
 /**
  * parent class = Employee
- * child class = Developer
+ * child class = ProjectLead
  * extends = keyword
  */
-public class Developer extends Employee{
+public class ProjectLead extends Employee{
 
 	/**
 	 * 
 	 */
-	public Developer() {
+	public ProjectLead() {
 		// TODO Auto-generated constructor stub
 	}
 	public static void main(String a[]) {
 		//child object is instantiated from child constructor
-		//parent class consumes the properties and behaviors of child class
-		Employee emp = new Developer();
+	    //parent class consumes the properties and behaviors of child class
+		Employee emp = new ProjectLead();
 		emp.setId(24);
 		emp.setName("Darshan");
 		emp.setDepartment("Angular");
@@ -30,5 +30,4 @@ public class Developer extends Employee{
 		System.out.println(emp.getDepartment());
 		System.out.println(emp.getSalary());
 	}
-
 }

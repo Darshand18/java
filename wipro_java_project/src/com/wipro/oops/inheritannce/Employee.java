@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wipro.oops;
+package com.wipro.oops.inheritannce;
 
 /**
  * /**NO constructor
