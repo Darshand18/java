@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.wipro.java;
+
+import com.wipro.oops.Employee;
+
+/**
+ * parent class = Employee
+ * child class = ProjectLead
+ * extends = keyword
+ */
+public class ProjectLead extends Employee{
+
+	/**
+	 * 
+	 */
+	public ProjectLead() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

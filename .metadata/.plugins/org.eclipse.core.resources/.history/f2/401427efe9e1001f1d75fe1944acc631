@@ -1,0 +1,82 @@
+/**
+ * 
+ */
+package com.wipro.java;
+
+/**
+ * 
+ */
+public class Animal {
+
+	// Instance variables for the Animal class//
+    private int id;
+    private String name;
+    private String species;
+    private int age;
+    
+    // Default constructor - Initializes the object without setting any field values
+    public Animal() {
+    }
+    
+    // Constructor with parameters to initialize the Animal object with specific values
+    public Animal(int id, String name, String species, int age) {
+        this.id = id;
+        this.name = name;
+        this.species = species;
+        this.age = age;
+    }
+
+    // Getter method for id field
+    public int getId() {
+        return id;
+    }
+
+    // Setter method for id field
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    // Getter method for name field
+    public String getName() {
+        return name;
+    }
+
+    // Setter method for name field
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Getter method for species field
+    public String getSpecies() {
+        return species;
+    }
+
+    // Setter method for species field
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    // Getter method for age field
+    public int getAge() {
+        return age;
+    }
+
+    // Setter method for age field
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Main method to test the functionality of the Animal class
+    public static void main(String[] args) {
+        // Create an Animal object using the parameterized constructor
+        Animal animal1 = new Animal(1, "Leo", "Lion", 5);
+        
+      
+        System.out.println("Animal [id=" + animal1.getId() + ", name=" + animal1.getName() + 
+                           ", species=" + animal1.getSpecies() + ", age=" + animal1.getAge() + "]");
+        
+        
+    }
+}
+
+
