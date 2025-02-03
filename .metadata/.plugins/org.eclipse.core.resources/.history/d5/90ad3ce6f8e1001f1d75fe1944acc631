@@ -70,5 +70,12 @@ public class Employee {
         return "Employee [id=" + id + ", name=" + name + ", department=" + department + ", salary=" + salary + "]";
     }
     
-
+ // Main method to test the class
+    public static void main(String[] args) {
+        // Create an Employee object using the parameterized constructor
+        Employee emp1 = new Employee(1, "Ram", "Engineering", 30000.00);
+        
+        // Print Employee details
+        System.out.println(emp1);
+}
 }
