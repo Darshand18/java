@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.wipro.java;
+
+/**
+ * 
+ */
+public class Developer extends Employee{
+
+	/**
+	 * 
+	 */
+	public Developer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

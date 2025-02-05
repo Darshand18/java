@@ -1,0 +1,68 @@
+package com.wipro.java;
+
+/**
+ * Animal class represents an animal with specific attributes.
+ */
+public class Animal {
+
+	//Private properties=Structure
+    private String color; 
+    private String name;
+    private String species;
+    private int age;
+    
+
+    public Animal(String string, String string2, String string3, int i) {
+		// TODO Auto-generated constructor stub
+	}
+
+	// Getter method for color field
+    public String getColor() {
+        return color;
+    }
+
+    // Setter method for color field
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    // Getter method for name field
+    public String getName() {
+        return name;
+    }
+
+    // Setter method for name field
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    // Getter method for species field
+    public String getSpecies() {
+        return species;
+    }
+
+    // Setter method for species field
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    // Getter method for age field
+    public int getAge() {
+        return age;
+    }
+
+    // Setter method for age field
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Main method to test the functionality of the Animal class
+    public static void main(String[] args) {
+        // Create an Animal object using the parameterized constructor
+        Animal animal1 = new Animal("Golden", "Leo", "Lion", 5);
+        
+        // Print the details of the animal
+        System.out.println("Animal [color=" + animal1.getColor() + ", name=" + animal1.getName() + 
+                           ", species=" + animal1.getSpecies() + ", age=" + animal1.getAge() + "]");
+    }
+}

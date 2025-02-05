@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.wipro.java;
+
+/**
+ * 
+ */
+public class ProjectLead extends Employee
+{
+
+	/**
+	 * 
+	 */
+	public ProjectLead() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.wipro.java;
+
+/**
+ * 
+ */
+public class ProjectLead {
+
+	/**
+	 * 
+	 */
+	public ProjectLead() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

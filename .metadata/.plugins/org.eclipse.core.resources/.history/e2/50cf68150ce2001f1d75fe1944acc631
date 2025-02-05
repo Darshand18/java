@@ -1,0 +1,9 @@
+package com.wipro.oops;
+
+public class ElectricCar {
+
+	public ElectricCar() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
